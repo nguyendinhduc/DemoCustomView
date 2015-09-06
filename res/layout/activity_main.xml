@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0287cf"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_lock"
+            />
+        <TextView 
+           
+            android:text="Gard"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            />
+    </LinearLayout>
+
+    <com.kandy.exercise4_custemview.CustemViewDemo
+        android:id="@+id/custemViewDemo1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="8" />
+    <LinearLayout 
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+      	android:paddingTop="25dp"
+      	android:paddingBottom="12dp"
+        >
+        <Button 
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Cancel"
+            android:background="#0287cf"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            
+            />
+        <Button 
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Continue"
+            android:textColor="@android:color/white"
+            android:background="#a8a8a8"
+            android:textSize="30dp"
+            
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>
